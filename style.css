@@ -44,6 +44,12 @@ body {
 
 }
 
+#chat-window {
+    height: 280px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
 .primary {
     width: 100%;
     display: flex;
