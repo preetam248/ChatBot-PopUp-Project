@@ -27,7 +27,7 @@ body {
 #chat-box {
     background-color: #f0f8ff;
     text-align: center;
-    width: 280px;
+    width: 300px;
     min-width: 280px;
     padding: 15px;
     border: none;
@@ -45,6 +45,7 @@ body {
 }
 
 .primary {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -62,7 +63,7 @@ body {
 }
 
 .primary > .square  {
-    width: 230px;
+    max-width: 200px;
     padding: 10px;
     background-color: #7fffd4;
     border-radius: 10px;
