@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #212121;
+}
+
+#icon-holder {
+    padding: 10px;
+    background-color: #f0f8ff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #B197FC;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#chat-box {
+    background-color: #f0f8ff;
+    text-align: center;
+    width: 280px;
+    min-width: 280px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+
+#cross {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.primary {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.primary > .round {
+    background-color: red;
+    width:40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.primary > .square  {
+    width: 230px;
+    padding: 10px;
+    background-color: #7fffd4;
+    border-radius: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 5px;
+}
+.secondary input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #f0f8ff;
+}
