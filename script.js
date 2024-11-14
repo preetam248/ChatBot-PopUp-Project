@@ -17,6 +17,9 @@ document.getElementById("cross").addEventListener(
   false
 );
 
+//*Flag
+let flag = false;
+
 function sendMsg() {
   let inputMsg = document.getElementById("inputText").value;
   if (inputMsg !== "") {
@@ -29,6 +32,11 @@ function sendMsg() {
     let letter = document.createTextNode("P");
     roundChildDiv.appendChild(letter);
     roundChildDiv.classList.add("round");
+
+    if (flag) {
+      roundChildDiv.classList.add("hidden");
+    }
+    flag = true;
 
     let inputText = document.getElementById("inputText").value;
     let msg = document.createTextNode(`${inputText}`);

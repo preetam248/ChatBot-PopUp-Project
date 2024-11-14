@@ -93,3 +93,7 @@ body {
     padding: 5px;
     background-color: #f0f8ff;
 }
+
+.hidden {
+    visibility: hidden;
+}
