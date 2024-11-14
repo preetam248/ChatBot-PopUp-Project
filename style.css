@@ -38,10 +38,13 @@ body {
     display: none;
 }
 
-#cross {
+#cross-box {
     display: flex;
     flex-direction: row-reverse;
 
+}
+#cross {
+    width: 10px;
 }
 
 #chat-window {
